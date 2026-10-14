@@ -87,7 +87,7 @@ import java.util.Scanner;
 	                    } else if (account.withdraw(w)) {
 	                        System.out.println("Withdrawn Rs." + w + ". Balance: Rs." + account.getBalance());
 	                    } else {
-	                        System.out.println("Insufficient balance");
+	                        System.out.println("Insufficient Funds");
 	                    }
 	                    break;
 
