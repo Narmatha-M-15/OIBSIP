@@ -1,8 +1,10 @@
+//Narmatha M | Java Development | Task 2: Number Guessing Game
+
 import java.util.ArrayList;
 
 import java.util.Random;
 import java.util.Scanner;
-;
+
 
 public class NumberGuessingGame {
    public static void main(String[] args) {
@@ -48,7 +50,7 @@ public class NumberGuessingGame {
 			   
 		   }else {
 			   System.out.println("you Lost! the number was:"+secret);
-			   roundSummary.add("Round"+round+" -Lost");
+			   roundSummary.add("Round"+round+" - Lost");
 		   }
 						 System.out.println("play again? (yes/no)");
 						 playagain=sc.nextLine().trim().equalsIgnoreCase("yes");
