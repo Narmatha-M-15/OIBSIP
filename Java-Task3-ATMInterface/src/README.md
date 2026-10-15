@@ -78,7 +78,9 @@ Deposited Rs.500.0. Balance: Rs.5500.0
 
 ## Screenshots
 
-![ATM Output](screenshots/atm.png)
+![Login and menu](screenshots/atm1.png)
+
+![Transactions](screenshots/atm2.png)
 
 ## Author
 
