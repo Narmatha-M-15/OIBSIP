@@ -62,6 +62,12 @@ Or open the project in Eclipse / IntelliJ and run `Main.java`.
 
 ```
 ===== Welcome to ATM =====
+Enter Account Number: 5772363
+Enter PIN: 1525
+Invalid Account Number or PIN. Attempts left: 2
+Enter Account Number: 123567
+Enter PIN: 1525
+Invalid Account Number or PIN. Attempts left: 1
 Enter Account Number: 63456789
 Enter PIN: 1525
 Login successful!
@@ -71,16 +77,30 @@ Login successful!
 3. Deposit
 4. Transfer
 5. Quit
-Choose option: 3
-Enter amount to deposit: 500
-Deposited Rs.500.0. Balance: Rs.5500.0
+Choose option: 4
+Enter recipient Account Number: 98765432
+Enter amount to transfer: 5000
+Insufficient Funds
+
+Choose option: 1
+--- Transaction History ---
+15-10-2026 00:33:58 | Withdraw | Rs.3000.0
+15-10-2026 00:34:10 | Deposit | Rs.2000.0
+15-10-2026 00:34:32 | Transfer Out | Rs.1000.0
+Current balance: Rs.3000.0
+
+Choose option: 6
+Invalid option. Choose 1 to 5.
+
+Choose option: 5
+Thank you for using the ATM. Goodbye!
 ```
 
 ## Screenshots
 
-![Login and menu](screenshots/atm1.png)
+![Login and menu](atm1.png)
 
-![Transactions](screenshots/atm2.png)
+![Transactions](atm2.png)
 
 ## Author
 
